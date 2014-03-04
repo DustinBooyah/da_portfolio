@@ -4,6 +4,7 @@
 <meta charset="utf-8" />
 <title>Gallery - Dustin Aguilar - Web Developement</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='http://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="css/main.css" type="text/css" media="screen">
 <!--[if lt IE 9 & !IEMobile]>
 <link href="css/main.css" rel="stylesheet" type="text/css">
@@ -20,30 +21,18 @@
 	
 	<header>
 
-		<a href="../index.html"><img alt=
-			"Dustin Aguilar - Web Developement" src=
-			"images/logo.png" class="logo"></a>
-	 <nav class="menu">
-			
-				<span>
-					<a href="index.html">Main</a>
-				</span>
-
-				<span>
-					<a href="services.html">Skillset</a>
-				</span>
-
-				<span>
-					<a href="gallery.php">Gallery</a>
-				</span>
-
-				<span>
-					<a href="contact.html">Contact</a>
-				</span>
-			
-		</nav>
-		</nav>
-		</header>
+	<nav>
+		
+				<a href="index.html">Main</a>
+		
+				<a href="services.html">Skillset</a>
+		
+				<a href="gallery.php">Gallery</a>
+		
+				<a href="contact.html">Contact</a>
+		
+	</nav>
+</header>
 		
 		<section>
   
@@ -110,18 +99,17 @@
 		</section>
 		<div class="clr"></div>
         <footer>
-            <div class="floatleft">
-                <p><a href="contact.html">Contact</a> | <a href=
-                "mailto:dustin@dustinaguilar.com">Site Feedback</a><br>
-                Copyright 1999-2013 | Dustin Aguilar</p>
-            </div>
-            <div class="floatright">
-              <a href="http://www.behance.net/dustinaguilar"><img src="images/_ico-behance.png"></a>
-			   <a href="http://www.facebook.com/dustinaguilarweb"><img src="images/_ico-facebook.png"></a>
-			   <a href="http://instagram.com/d_moneyfresh"><img src="images/_ico-instagram.png"></a>
-			   <a href="http://www.linkedin.com/pub/dustin-aguilar/33/703/50b"><img src="images/_ico-linkedin.png"></a>
-            </div>
-        </footer>
+        <p><a href="contact.html">Contact</a> | <a href=
+        "mailto:dustin@dustinaguilar.com">Site Feedback</a><br>
+        Copyright 1999-2014 | Dustin Aguilar</p>
+ 
+	<!-- <div class="floatright">
+      <a href="http://www.behance.net/dustinaguilar"><img src="images/_ico-behance.png"></a>
+	   <a href="http://www.facebook.com/dustinaguilarweb"><img src="images/_ico-facebook.png"></a>
+	   <a href="http://instagram.com/d_moneyfresh"><img src="images/_ico-instagram.png"></a>
+	   <a href="http://www.linkedin.com/pub/dustin-aguilar/33/703/50b"><img src="images/_ico-linkedin.png"></a>
+    </div> -->
+</footer>
 
  <script type="text/javascript">
 var _gaq = _gaq || [];    _gaq.push(['_setAccount', 'UA-5935415-5']);    _gaq.push(['_trackPageview']);    (function() {      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);    })();  
