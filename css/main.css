@@ -1,6 +1,6 @@
 body {
 	background:#000;
-	color:#ccc;
+	color:#BCBCBC;
 	font-family:"Montserrat", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 	letter-spacing:-0.025em;
 	  font-weight: normal;
@@ -91,7 +91,7 @@ p {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   font-style: normal;
-  color: #E4E4E4;
+  color: #ddd;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -265,7 +265,7 @@ footer {
 @media only screen and (min-width: 40.063em) {
 
 	body {
-		background: url(../img/bg_4k.png) #000 no-repeat top center;
+		background: url(../img/bg_1080.png) #000 no-repeat top center;
 		background-size:cover;
 	}
 
@@ -277,8 +277,8 @@ footer {
 	letter-spacing:-0.5rem;
 }
 .head_inner {
-	margin-bottom:-3.2rem;
-	opacity:.4}
+	margin-bottom:-2rem;
+	opacity:.3}
  h1, h2, h3, h4, h5, h6 {
     line-height: 1; }
 
