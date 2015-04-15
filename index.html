@@ -1,79 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js" lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Dustin Aguilar - Web Developement</title>
-    <meta content="The Portfolio Website of Dustin Aguilar, a web developer in Gainesville FL"
-    name="description">
-    <meta content="Dustin Aguilar - Web Developement">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Dustin Aguilar | Web Developement</title>
+    <meta content="The Portfolio Website of Dustin Aguilar, a web developer in Gainesville FL" name="description">
     <meta content="website">
-    <meta content="http://www.dustinaguilar.com">
     <meta content="http://www.dustinaguilar.com/thumbnail.png">
-    <meta content="201403583">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <link href="css/main.css" media="screen" rel="stylesheet" type="text/css">
-     <link href="webfontkit/stylesheet.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="css/foundation.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <script src="js/vendor/modernizr.js"></script>
     <!--[if lt IE 9 & !IEMobile]>  <link href="css/main.css" rel="stylesheet" type="text/css">  <![endif]-->
 </head>
 
-<body>
-   
-<div class="wrapper">
-	
-<header>
-	
-	<nav>
-		
-				<a href="index.html">MAIN</a>
-		
-				<a href="services.html">SKILLSET</a>
-		
-				<a href="gallery.php">Gallery</a>
-		
-				<a href="contact.html">Contact</a>
-		
-	</nav>
-</header>
+<body ontouchstart="" onmouseover="">
 
-<section>
-	 <img alt="Welcome" class="resize" src="images/imagemain.png">
+  <header>
+    <nav>
+        <div class="large-6 columns small-centered">
+          <div class="icon-bar four-up">
+            <a class="item" href="index.html"><!-- <i class="fi-home"></i>  -->Home</a>
+            <a class="item" href="services.html"><!-- <i class="fi-info"></i> -->Services</a>
+            <a class="item" href="gallery.php"><!-- <i class="fi-photo"></i> -->Gallery</a>
+            <a class="item" href="contact.html"><!-- <i class="fi-mail"></i> -->Contact</a> 
+          </div>
+        </div>
+    </nav>
+  </header>
 
-	<div class="content">
+  	<section> 
+      <div class="row">
+        <div class="large-12 column text-center">
+         <img alt="Welcome" src="img/main.png">
+          <h1>Hi.</h1>
+          <h2>My name is Dustin. I design graphics and build websites.</h2>
+          <p>An eye for detail, the latest development practices and passion for design help me create beautiful, solid websites that my clients can be proud of.</p>
+          <a href="gallery.php" class="cta">Take a look.</a>
+        </div>
+        <!-- <div class="large-6 column centered">
+          <img alt="Welcome" src="img/imagemain.png">
+        </div> -->
+      </div>
+  	</section>
 
-        <h1>I design and build websites.</h1>
+    <footer>
+      <div class="row">
+        <div class="large-12 columns">
+          <img src="img/logo_footer.png">
+        </div>
+        <div class="large-12 columns">
+          <small>Copyright 1999-2015 | Dustin Aguilar</small>
+        </div>
+          <!-- <a href="http://www.behance.net/dustinaguilar"><img src="img/_ico-behance.png"></a>
+  			  <a href="http://www.linkedin.com/pub/dustin-aguilar/33/703/50b"><img src="img/_ico-linkedin.png"></a> -->
+      </div>
+    </footer>
 
-        <p>I have built websites for a little more than a decade. Organization, an eye for detail and the latest development tools enable me to deliver results that clients can be proud of.</p>
-
-        <h5><a href="gallery.php">View my gallery </a> <small>for some examples.</small></h5>
-	</div>
-
-</section>
-
-<div class="clr"></div>
-
-<footer>
-        <p><a href="contact.html">Contact</a> | <a href=
-        "mailto:dustin@dustinaguilar.com">Site Feedback</a><br>
-        Copyright 1999-2014 | Dustin Aguilar</p>
- 
-	<!-- <div class="floatright">
-      <a href="http://www.behance.net/dustinaguilar"><img src="images/_ico-behance.png"></a>
-	   <a href="http://www.facebook.com/dustinaguilarweb"><img src="images/_ico-facebook.png"></a>
-	   <a href="http://instagram.com/d_moneyfresh"><img src="images/_ico-instagram.png"></a>
-	   <a href="http://www.linkedin.com/pub/dustin-aguilar/33/703/50b"><img src="images/_ico-linkedin.png"></a>
-    </div> -->
-</footer>
-
- <script type="text/javascript">
-var _gaq = _gaq || [];    _gaq.push(['_setAccount', 'UA-5935415-5']);    _gaq.push(['_trackPageview']);    (function() {      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);    })();  
-    </script>
-
-	 <div id="fb-root"></div>
-	 <script>
-(function(d, s, id) {    var js, fjs = d.getElementsByTagName(s)[0];    if (d.getElementById(id)) return;    js = d.createElement(s); js.id = id;    js.src = "http://connect.facebook.net/en_US/all.js#xfbml=1";    fjs.parentNode.insertBefore(js, fjs);  }(document, 'script', 'facebook-jssdk'));
-    </script> 
-	
-	
-	</div><!--End Wrapper-->
+  <script type="text/javascript">
+ var _gaq = _gaq || [];    _gaq.push(['_setAccount', 'UA-5935415-5']);    _gaq.push(['_trackPageview']);    (function() {      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);    })();
+  </script>
 </body>
 </html>
