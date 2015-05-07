@@ -25,14 +25,12 @@ if(isset($_POST['Email_Address'])) {
 	
 	if(!isset($_POST['Full_Name']) ||
 		!isset($_POST['Email_Address']) ||
-		!isset($_POST['Telephone_Number']) ||
 		!isset($_POST['Your_Message'])) {
 		died('We are sorry, but there appears to be a problem with the form you submitted.');		
 	}
 	
 	$full_name = $_POST['Full_Name']; // required
 	$email_from = $_POST['Email_Address']; // required
-	$telephone = $_POST['Telephone_Number']; // not required
 	$comments = $_POST['Your_Message']; // required
 	
 	$error_message = "";
@@ -59,7 +57,6 @@ if(isset($_POST['Email_Address'])) {
 	
 	$email_message .= "Full Name: ".clean_string($full_name)."\r\n";
 	$email_message .= "Email: ".clean_string($email_from)."\r\n";
-	$email_message .= "Telephone: ".clean_string($telephone)."\r\n";
 	$email_message .= "Message: ".clean_string($comments)."\r\n";
 	
 $headers = 'From: '.$email_from."\r\n".

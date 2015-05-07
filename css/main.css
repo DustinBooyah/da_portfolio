@@ -1,15 +1,15 @@
+
 body {
 	background:#000;
 	color:#BCBCBC;
 	font-family:"Montserrat", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 	letter-spacing:-0.025em;
-	  font-weight: normal;
+	font-weight: normal;
   font-style: normal;
-  line-height: 1.5;
+  line-height: normal;
   position: relative;
-  cursor: auto; 
+  cursor: auto;
 }
-
 .clr:before, .clr:after {
 	content: " ";
 	display: table; }
@@ -28,15 +28,8 @@ a:hover,a:active,a:focus {
 a:hover {
 	cursor:pointer;
 }
-
-ul,ol,dl {
-	list-style-type: none;
-	margin:0 auto;
-}
-
-li {
-	list-style-type:none;
-	font-weight:400;
+nav a{
+  color:#888;
 }
 
 /* Typography resets */
@@ -158,6 +151,8 @@ code {
 ul,
 ol,
 dl {
+  list-style-type: none;
+  margin:0 auto;
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 1.25rem;
@@ -200,6 +195,11 @@ ol {
   ol li ol {
     margin-left: 1.25rem;
     margin-bottom: 0; }
+
+    li {
+  list-style-type:none;
+  font-weight:400;
+}
 
 /* Definition Lists */
 dl dt {
@@ -278,13 +278,15 @@ footer {
 }
 .head_inner {
 	margin-bottom:-2rem;
-	opacity:.3}
- h1, h2, h3, h4, h5, h6 {
-    line-height: 1; }
-
+	opacity:.4}
+  h2, h3, h4, h5, h6 {
+    line-height: 1.2; }
+  h1{
+    line-height:1; 
+  }
   h2 {
     font-size: 2.3125rem;
-    letter-spacing: -0.1rem; }
+    letter-spacing: -0.1rem;}
 
   h3 {
     font-size: 1.6875rem; }
@@ -297,6 +299,9 @@ footer {
 
   h6 {
     font-size: 1rem; } 
+i.icons_contact{
+  font-size:6rem;
+}
 }
 
 .orange {
@@ -361,9 +366,7 @@ form .row .row {
       border-bottom-right-radius: 0;
       border-top-right-radius: 0; }
 form .row input.column,
-form .row input.columns,
-form .row textarea.column,
-form .row textarea.columns {
+form .row input.columns {
   padding-left: 0.5rem; }
 
 /* Label Styles */
@@ -556,54 +559,44 @@ select.error {
 label.error {
   color: #f04124; }
 
-.btn {
+.button {
   position: relative;
-
   display: block;
   margin: 30px auto;
-  padding: 0;
-
+  padding: 0.5rem;
   overflow: hidden;
-
   border-width: 0;
   outline: none;
   border-radius: 2px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
-  
-  background-color: #2ecc71;
+  background-color:rgba(255,255,255,0.25);
   color: #ecf0f1;
-  
   transition: background-color .3s;
 }
 
-.btn:hover, .btn:focus {
-  background-color: #27ae60;
+.button:hover, .button:focus {
+  background-color:rgba(255,255,255,0.5);
 }
 
-.btn > * {
+.button > * {
   position: relative;
 }
 
-.btn span {
+.button span {
   display: block;
   padding: 12px 24px;
 }
 
-.btn:before {
+.button:before {
   content: "";
-  
   position: absolute;
   top: 50%;
   left: 50%;
-  
   display: block;
   width: 0;
   padding-top: 0;
-    
   border-radius: 100%;
-  
   background-color: rgba(236, 240, 241, .3);
-  
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -611,7 +604,7 @@ label.error {
   transform: translate(-50%, -50%);
 }
 
-.btn:active:before {
+.button:active:before {
   width: 120%;
   padding-top: 120%;
   
@@ -623,18 +616,18 @@ label.error {
   box-sizing: border-box;
 }
 
-.btn.orange {
+.button.orange {
   background-color: #e67e22;
 }
 
-.btn.orange:hover, .btn.orange:focus {
+.button.orange:hover, .button.orange:focus {
   background-color: #d35400;
 }
 
-.btn.red {
+.button.red {
   background-color: #e74c3c;
 }
 
-.btn.red:hover, .btn.red:focus {
+.button.red:hover, .button.red:focus {
   background-color: #c0392b;
 }

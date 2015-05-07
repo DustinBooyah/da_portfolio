@@ -26,7 +26,7 @@
 
    <header>
     <nav>
-        <div class="large-6 columns small-centered">
+        <div class="large-8 columns small-centered">
           <div class="icon-bar four-up">
             <a class="item" href="index.html"><!-- <i class="fi-home"></i>  -->Home</a>
             <a class="item" href="services.html"><!-- <i class="fi-info"></i> -->Services</a>
