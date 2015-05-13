@@ -9,7 +9,8 @@
     <meta content="http://www.dustinaguilar.com/thumbnail.png">
     <link href="font/foundation-icons.css" rel="stylesheet" />
     <link href="css/foundation.css" rel="stylesheet" />
-    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/main.scss" rel="stylesheet" />
+    <link href="font/stylesheet.css" rel="stylesheet"  type='text/css' />
     <script src="js/vendor/modernizr.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <!--[if lt IE 9 & !IEMobile]>
@@ -26,20 +27,31 @@
 
    <header>
     <nav>
-        <div class="large-8 columns small-centered">
-          <div class="icon-bar four-up">
+     
+        <div class="large-8 columns small-centered hide-for-small logo_m">
+          <div class="icon-bar five-up">
             <a class="item" href="index.html"><!-- <i class="fi-home"></i>  -->Home</a>
             <a class="item" href="services.html"><!-- <i class="fi-info"></i> -->Services</a>
+            <a class="item" href="index.html"></a>
             <a class="item" href="gallery.php"><!-- <i class="fi-photo"></i> -->Gallery</a>
             <a class="item" href="contact.html"><!-- <i class="fi-mail"></i> -->Contact</a> 
           </div>
         </div>
+
+         <div class="large-12 columns small-centered show-for-small small-nav">
+          <div class="icon-bar four-up">
+            <a class="item" href="index.html"><i class="fi-home"></i> </a>
+            <a class="item" href="services.html"><i class="fi-info"></i></a>
+            <a class="item" href="gallery.php"><i class="fi-photo"></i></a>
+            <a class="item" href="contact.html"><i class="fi-mail"></i></a> 
+          </div>
+        </div>
+   
     </nav>
   </header>
 
-
 	<section>
-		<div class="row">
+		<div class="row small-only-text-center">
       <h1 class="head_inner">Gallery</h1>
         <div class="large-12 column">
           <div id="galleria">
@@ -121,9 +133,9 @@
 	
     <footer>
       <div class="row">
-        <div class="large-12 columns">
+       <!--  <div class="large-12 columns">
           <img src="img/logo_footer.png">
-        </div>
+        </div> -->
         <div class="large-12 columns">
           <small>Copyright 1999-2015 | Dustin Aguilar</small>
         </div>
