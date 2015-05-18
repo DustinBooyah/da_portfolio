@@ -28,8 +28,8 @@
    <header>
     <nav>
      
-        <div class="large-8 columns small-centered hide-for-small logo_m">
-          <div class="icon-bar five-up">
+        <div class="large-10 columns small-centered hide-for-small logo_m">
+          <div class="icon-bar five-up menu">
             <a class="item" href="index.html"><!-- <i class="fi-home"></i>  -->Home</a>
             <a class="item" href="services.html"><!-- <i class="fi-info"></i> -->Services</a>
             <a class="item" href="index.html"></a>
@@ -133,9 +133,9 @@
 	
     <footer>
       <div class="row">
-       <!--  <div class="large-12 columns">
+        <div class="large-12 columns">
           <img src="img/logo_footer.png">
-        </div> -->
+        </div>
         <div class="large-12 columns">
           <small>Copyright 1999-2015 | Dustin Aguilar</small>
         </div>
