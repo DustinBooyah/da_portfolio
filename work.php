@@ -33,7 +33,7 @@
             <a class="item" href="index.html"><!-- <i class="fi-home"></i>  -->Home</a>
             <a class="item" href="services.html"><!-- <i class="fi-info"></i> -->Services</a>
             <a class="item" href="index.html"></a>
-            <a class="item" href="gallery.php"><!-- <i class="fi-photo"></i> -->Gallery</a>
+            <a class="item" href="work.php"><!-- <i class="fi-photo"></i> -->Work</a>
             <a class="item" href="contact.html"><!-- <i class="fi-mail"></i> -->Contact</a> 
           </div>
         </div>
@@ -42,7 +42,7 @@
           <div class="icon-bar four-up">
             <a class="item" href="index.html"><i class="fi-home"></i> </a>
             <a class="item" href="services.html"><i class="fi-info"></i></a>
-            <a class="item" href="gallery.php"><i class="fi-photo"></i></a>
+            <a class="item" href="work.php"><i class="fi-photo"></i></a>
             <a class="item" href="contact.html"><i class="fi-mail"></i></a> 
           </div>
         </div>
@@ -52,7 +52,7 @@
 
     <section>
         <div class="row small-only-text-center">
-      <h1 class="head_inner">Gallery</h1>
+      <h1 class="head_inner">Work</h1>
         <div class="large-12 column">
           <div id="galleria">
             <a href="img/images_gallery/b-22.png" id="fullscreen">
