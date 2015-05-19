@@ -1,7 +1,7 @@
 body {
 background:#000;
 color:#BCBCBC;
-font-family:Montserrat, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+font-family:Montserrat,montserratregular, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 letter-spacing:-.025em;
 font-weight:400;
 font-style:normal;
@@ -19,6 +19,16 @@ display:table;
 clear:both;
 }
 
+header {
+  background-image:url("../img/logo_top.png");
+  background-position:top;
+  background-repeat:no-repeat;
+}
+
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,th,td {
+margin:0;
+padding:0;
+}
 a {
 color:#7DB400;
 display:inline-block;
@@ -27,30 +37,11 @@ line-height:inherit;
 }
 
 a:hover,a:active,a:focus {
-color:#cf0;
+color:#0078a0;
 }
 
 a:hover {
 cursor:pointer;
-}
-
-header {
-  background-image:url("../img/logo_top.png");
-  background-position:top;
-  background-repeat:no-repeat;
-}
-
-nav a {
-color:#888;
-}
-
-div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,th,td {
-margin:0;
-padding:0;
-}
-
-a:hover,a:focus {
-color:#0078a0;
 }
 
 a img {
@@ -58,8 +49,9 @@ border:none;
 }
 
 a.item {
-	color:#334753;
+	color:rgba(173, 173, 173, 0.66);
 }
+
 a.item:hover {
 	color:#9FE403;
 }
@@ -68,12 +60,12 @@ p {
 font-family:inherit;
 font-weight:400;
 font-size:1rem;
-line-height:1.6;
+line-height:1.3;
 margin-bottom:1.25rem;
 text-rendering:optimizeLegibility; }
 	p.lead {
 	font-size:1.21875rem;
-	line-height:1.6;}
+	line-height:1.3;}
 	p aside {
 	font-size:.875rem;
 	line-height:1.35;
@@ -87,16 +79,18 @@ text-rendering:optimizeLegibility;
 margin-top:.2rem;
 margin-bottom:.5rem;
 line-height:1.2;
+text-shadow:#000 1px 1px 3px;
 }
 
 h1 small,h2 small,h3 small,h4 small,h5 small,h6 small {
 font-size:60%;
 color:#7DB400;
 line-height:0;
+font-weight:500;
 }
 
 h1 {
-color:rgba(0, 129, 255,.75);
+color:rgba(0, 129, 255,.1);
 font-size:2.5rem;
 letter-spacing:-.2rem;
 margin:0 auto;
@@ -140,21 +134,10 @@ font-size:60%;
 line-height:inherit;
 }
 
-code {
-font-family:Consolas, "Liberation Mono", Courier, monospace;
-font-weight:400;
-color:#333;
-background-color:#f8f8f8;
-border-color:#dfdfdf;
-border-style:solid;
-border-width:1px;
-padding:.125rem .3125rem .0625rem;
-}
-
 ul,ol,dl {
 list-style-type:none;
 font-size:1rem;
-line-height:1.6;
+line-height:1.3;
 list-style-position:outside;
 font-family:inherit;
 margin:0 auto 1.25rem;
@@ -175,25 +158,6 @@ margin-bottom:0;
 list-style:none;
 }
 
-ul.square li ul,ul.circle li ul,ul.disc li ul {
-list-style:inherit;
-}
-
-ul.square {
-list-style-type:square;
-margin-left:1.1rem;
-}
-
-ul.circle {
-list-style-type:circle;
-margin-left:1.1rem;
-}
-
-ul.disc {
-list-style-type:disc;
-margin-left:1.1rem;
-}
-
 ol {
 margin-left:1.4rem;
 }
@@ -201,6 +165,7 @@ margin-left:1.4rem;
 li {
 list-style-type:none;
 font-weight:400;
+line-height:1.4;
 }
 
 dl dt {
@@ -275,28 +240,23 @@ margin:0 0 1rem;
 padding:.5625rem 0;
 }
 
-label small {
-text-transform:capitalize;
-color:#676767;
-}
-
 input[type=text],input[type=password],input[type=date],input[type=datetime],input[type=datetime-local],input[type=month],input[type=week],input[type=email],input[type=number],input[type=search],input[type=tel],input[type=time],input[type=url],input[type=color],textarea {
 -webkit-appearance:none;
 border:1px solid #666;
 background-color:rgba(50,50,50,0.75);
 font-family:inherit;
+font-size:1rem;
 box-shadow:none;
 color:#ccc;
 display:block;
-font-size:1rem;
+margin:0 0 1rem;
+padding:.5rem;
 min-height:2.3125rem;
 width:100%;
 -webkit-box-sizing:border-box;
 -moz-box-sizing:border-box;
 box-sizing:border-box;
 transition:all .15s linear;
-margin:0 0 1rem;
-padding:.5rem;
 }
 
 input[type=text]:focus,input[type=password]:focus,input[type=date]:focus,input[type=datetime]:focus,input[type=datetime-local]:focus,input[type=month]:focus,input[type=week]:focus,input[type=email]:focus,input[type=number]:focus,input[type=search]:focus,input[type=tel]:focus,input[type=time]:focus,input[type=url]:focus,input[type=color]:focus,textarea:focus {
@@ -421,20 +381,20 @@ button{
 button,
 input[type=submit] {
   -webkit-appearance:none;
-  position: relative;
-  margin: 0 0 1.25rem;
+  background: #659200 ;
+  color: #f5f5f5;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  padding: 1rem 2rem 1.0625rem 2rem;
-  font-size: 1rem;
+  font-size:1.25rem;
+  font-family:inherit;
+  font-weight:700;
   width: auto;
   height: auto;
-  background: #7DB400;
-  color: #FFFFFF;
   border:none;
-  font-family:inherit;
-  font-weight:bold;
+  position: relative;
+  margin: 0 0 1.25rem;
+  padding: 1rem 2rem 1.0625rem 2rem;
   letter-spacing:inherit;
   transition: background-color 300ms ease-out;
   }
@@ -442,12 +402,14 @@ input[type=submit] {
 button:hover,
 input[type=submit]:hover {
 	-webkit-appearance:none;
-  background-color: #b2ff00;
+  background-color: #78AD02;
   cursor: pointer;
   border:none;
   font-family:inherit;
   letter-spacing:inherit;
   display:inline-block;
+  color:#f5f5f5;
+  text-shadow:inset #555 1px 1px 1px;
 }
 
 button.large, .button.large {
@@ -551,11 +513,6 @@ button.large, .button.large {
   animation-name: bounceIn;
 }
 
-.cta {
-font-size:1.25rem;
-font-weight:700;
-}
-
 .text-center,.text-centered {
 text-align:center;
 }
@@ -563,11 +520,6 @@ text-align:center;
 .center,.centered {
 text-align:center;
 margin:0 auto;
-}
-
-.blended {
-background-image:url(../logo_blend.jpg);
-background-blend-mode:multiply;
 }
 
 .required {
@@ -596,21 +548,31 @@ width:100%;
 margin-bottom:auto;
 opacity:.4;
 }
-
-
+i.behance {
+color:#0079ff;
+}
+i.linkedin {
+color:#008cc9;
+}
+i.github{
+color:#6f0974;
+}
+.menu a{
+    color:rgba(255,255,255,.30);
+  }
 @media only screen and (min-width: 40.063em) {
 
 body {
 background:url(../img/bg_1080.png) #000 no-repeat top center;
-background-size:cover;
+// background-size:cover;
 }
 
 h1 {
-color:rgba(0, 129, 255, 0.5);
+color:rgba(0, 129, 255, 0.85);
 font-size:10rem;
 opacity:0.75;
 letter-spacing:-.5rem;
-line-height:1.4;
+line-height:1.6;
 margin:0 auto;
 }
 
@@ -621,7 +583,7 @@ line-height:1.2;
 h2 {
 font-size:2.3125rem;
 letter-spacing:-.1rem;
-margin-bottom:-10px;
+margin-bottom:0;
 }
 
 h3 {
@@ -640,28 +602,15 @@ h6 {
 font-size:1rem;
 }
 
-.nav a{
-  color:#637D93;
-  font-size:1.25rem;
-
-}
 .head_inner {
-margin-bottom:-2rem;
-opacity:.3;
-}
-
-h1.head_inner {
   font-size:7rem;
-  line-height:1;}
+  line-height:1;
+  margin-bottom:-1.5rem;
+  opacity:.35;}
 
 i.icons_contact {
 font-size:6rem;}
-  button, .button {
-    display: inline-block; }
 
-.cta {
-font-size:1.5rem;
-font-weight:700;
 }
 }
 

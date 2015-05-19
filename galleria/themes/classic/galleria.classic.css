@@ -84,25 +84,28 @@ cursor:pointer
 }
 .galleria-info-title {
     font-family:"Montserrat", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-    font-weight:700;
-    font-size:1.75rem;
-    line-height:0.8;
-    margin: 0;
+    font-size:1.3rem;
+    line-height:1;
+    margin: 5px auto;
     color: #99cc00;
     margin-bottom: 7px;
 	letter-spacing:-0.025em;
 }
 .galleria-info-title small {
-    color:#333;
-  
+    color:#834b00;
+    line-height:0.8;
+
 }
 .galleria-info-description {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-     font-weight:500;
-    font-size:1rem;
-    
-    margin: 0;
+     font-weight:300;
+    font-size:0.9rem;
+    margin: 10px auto;
+    line-height:1.35;
     color: #7e7e7e;
+}
+.galleria-info-description small{
+    color: #4F66A3;
 }
 .galleria-info-close {
     width: 9px;
