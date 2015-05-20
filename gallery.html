@@ -9,7 +9,7 @@
     <meta content="http://www.dustinaguilar.com/thumbnail.png">
     <link href="font/foundation-icons.css" rel="stylesheet" />
     <link href="css/foundation.css" rel="stylesheet" />
-    <link href="css/main.scss" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
     <link href="font/stylesheet.css" rel="stylesheet"  type='text/css' />
     <script src="js/vendor/modernizr.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
