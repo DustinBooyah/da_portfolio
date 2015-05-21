@@ -90,7 +90,7 @@ font-weight:500;
 }
 
 h1 {
-color:rgba(0, 129, 255,.1);
+color:rgba(0, 129, 255,1);
 font-size:2.5rem;
 letter-spacing:-.2rem;
 margin:0 auto;
@@ -143,10 +143,6 @@ font-family:inherit;
 margin:0 auto 1.25rem;
 }
 
-ul {
-margin-left:1.1rem;
-}
-
 ul.no-bullet {
 margin-left:0;
 list-style:none;
@@ -186,11 +182,6 @@ margin:0 auto;
 footer {
 color:#484848;
 text-align:center;
-}
-
-ul li ul,ul li ol,ol li ul,ol li ol {
-margin-left:1.25rem;
-margin-bottom:0;
 }
 
 form .row .row {
@@ -344,18 +335,6 @@ select::-ms-expand,[data-abide] span.error,[data-abide] small.error {
 display:none;
 }
 
-[data-abide] .error small.error,[data-abide] .error span.error,[data-abide] span.error,[data-abide] small.error,span.error,small.error,.error small.error {
-display:block;
-margin-top:-1px;
-margin-bottom:1rem;
-font-size:.75rem;
-font-weight:400;
-font-style:italic;
-background:#f04124;
-color:#FFF;
-padding:.375rem .5625rem .5625rem;
-}
-
 .error input,.error textarea,.error select,input.error,textarea.error,select.error {
 margin-bottom:0;
 }
@@ -381,19 +360,20 @@ button{
 button,
 input[type=submit] {
   -webkit-appearance:none;
-  background: #659200 ;
+  background-color: rgba(106,148,3,1);
   color: #f5f5f5;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-size:1.25rem;
   font-family:inherit;
-  font-weight:700;
+  font-weight:600;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: #333 1px 1px 2px;
+  border:none;
   width: auto;
   height: auto;
-  border:none;
+  display: inline-block;
   position: relative;
-  margin: 2rem;
+  margin: 1.25rem;
   padding: 1rem 2rem 1.0625rem 2rem;
   letter-spacing:inherit;
   transition: background-color 300ms ease-out;
@@ -403,24 +383,10 @@ button:hover,
 input[type=submit]:hover {
 	-webkit-appearance:none;
   background-color: #78AD02;
+  color:#fff;
   cursor: pointer;
   border:none;
-  font-family:inherit;
-  letter-spacing:inherit;
-  display:inline-block;
-  color:#f5f5f5;
-  text-shadow:inset #555 1px 1px 1px;
 }
-
-button.large, .button.large {
-    padding: 1.125rem 2.25rem 1.1875rem 2.25rem;
-    font-size: 1.25rem; }
-  button.small, .button.small {
-    padding: 0.875rem 1.75rem 0.9375rem 1.75rem;
-    font-size: 0.8125rem; }
-  button.tiny, .button.tiny {
-    padding: 0.625rem 1.25rem 0.6875rem 1.25rem;
-    font-size: 0.6875rem; }
 
     button::-moz-focus-inner {
   border: 0;
@@ -558,13 +524,16 @@ i.github{
 color:#6f0974;
 }
 .menu a{
-    color:rgba(255,255,255,.30);
+    color:rgba(255,255,255,.3);
+  }
+  .fb-like {
+    margin:0 auto;
+    text-align:center;
   }
 @media only screen and (min-width: 40.063em) {
 
 body {
 background:url(../img/bg_1080.png) #000 no-repeat top center;
-// background-size:cover;
 }
 
 h1 {
@@ -572,7 +541,7 @@ color:rgba(0, 129, 255, 0.85);
 font-size:10rem;
 opacity:0.75;
 letter-spacing:-.5rem;
-line-height:1.6;
+line-height:1.4;
 margin:0 auto;
 }
 

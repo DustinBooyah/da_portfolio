@@ -7,10 +7,12 @@
     <meta content="The Portfolio Website of Dustin Aguilar, a web developer in Gainesville FL" name="description">
     <meta content="website">
     <meta content="http://www.dustinaguilar.com/thumbnail.png">
+     <meta content="201403583">
     <link href="font/foundation-icons.css" rel="stylesheet" />
     <link href="css/foundation.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
     <link href="font/stylesheet.css" rel="stylesheet"  type='text/css' />
+    <link rel="stylesheet" href="galleria/themes/classic/galleria.classic.css">
     <script src="js/vendor/modernizr.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <!--[if lt IE 9 & !IEMobile]>
@@ -18,7 +20,6 @@
 <![endif]-->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
 <script src="galleria/galleria-1.2.7.js"></script>
-<link rel="stylesheet" href="galleria/themes/classic/galleria.classic.css">
 <script src="galleria/themes/classic/galleria.classic.js"></script>
 
 </head>
@@ -129,7 +130,7 @@
         </script>
         </div>
       </div>
-        </section>
+    </section>
     
     <footer>
       <div class="row">
