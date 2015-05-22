@@ -1,7 +1,7 @@
 body {
 background:#000;
 color:#BCBCBC;
-font-family:Montserrat,montserratregular, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+font-family:"Montserrat","Helvetica Neue", "Helvetica", sans-serif;
 letter-spacing:-.025em;
 font-weight:400;
 font-style:normal;
@@ -192,14 +192,6 @@ form .row .row .column,form .row .row .columns {
 padding:0 .5rem;
 }
 
-form .row .row.collapse {
-margin:0;
-}
-
-form .row .row.collapse .column,form .row .row.collapse .columns {
-padding:0;
-}
-
 form .row .row.collapse input {
 -webkit-border-bottom-right-radius:0;
 -webkit-border-top-right-radius:0;
@@ -261,6 +253,8 @@ display:inline-block;
 
 textarea {
 max-width:100%;
+ height: auto;
+  min-height: 50px;
 }
 
 select {
@@ -276,6 +270,7 @@ border-color:#ccc;
 border-style:solid;
 border-width:1px;
 padding:.5rem;
+width:100%;
 }
 
 select:hover {
@@ -513,6 +508,7 @@ width:100%;
 .head_inner {
 margin-bottom:auto;
 opacity:.4;
+line-height:1;
 }
 i.behance {
 color:#0079ff;
@@ -573,7 +569,6 @@ font-size:1rem;
 
 .head_inner {
   font-size:7rem;
-  line-height:1;
   margin-bottom:-1.5rem;
   opacity:.35;}
 
@@ -581,5 +576,5 @@ i.icons_contact {
 font-size:6rem;}
 
 }
-}
+
 

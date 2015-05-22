@@ -1,27 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <title>Work | Dustin Aguilar | Web Developement</title>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Gallery - Dustin Aguilar - Web Developement</title>
     <meta content="The Portfolio Website of Dustin Aguilar, a web developer in Gainesville FL" name="description">
     <meta content="website">
     <meta content="http://www.dustinaguilar.com/thumbnail.png">
-     <meta content="201403583">
-    <link href="font/foundation-icons.css" rel="stylesheet" />
+    <meta content="201403583">
     <link href="css/foundation.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
-    <link href="font/stylesheet.css" rel="stylesheet"  type='text/css' />
-    <link rel="stylesheet" href="galleria/themes/classic/galleria.classic.css">
-    <script src="js/vendor/modernizr.js"></script>
+    <link href="font/foundation-icons.css" rel="stylesheet"  type='text/css' />
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-  <!--[if lt IE 9 & !IEMobile]>
-<link href="css/main.css" rel="stylesheet" type="text/css">
-<![endif]-->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-<script src="galleria/galleria-1.2.7.js"></script>
-<script src="galleria/themes/classic/galleria.classic.js"></script>
-
+    <!--[if lt IE 9 & !IEMobile]>  <link href="css/main.css" rel="stylesheet" type="text/css">  <![endif]-->
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script src="galleria/galleria-1.2.7.js"></script>
+    <script src="galleria/themes/classic/galleria.classic.js"></script>
 </head>
 
 <body ontouchstart="" onmouseover="">
@@ -140,8 +135,6 @@
         <div class="large-12 columns">
           <small>Copyright 1999-2015 | Dustin Aguilar</small>
         </div>
-          <!-- <a href="http://www.behance.net/dustinaguilar"><img src="img/_ico-behance.png"></a>
-              <a href="http://www.linkedin.com/pub/dustin-aguilar/33/703/50b"><img src="img/_ico-linkedin.png"></a> -->
       </div>
     </footer>
 
