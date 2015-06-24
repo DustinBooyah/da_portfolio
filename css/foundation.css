@@ -42,7 +42,7 @@ meta.foundation-data-attribute-namespace {
 
 html, body {
   height: 100%;
-  font-size: 95%;
+  font-size: 100%;
   box-sizing: border-box; }
 
 *,
@@ -322,7 +322,7 @@ img {
 
   @media only screen and (min-width: 40.063em) {
          .icon-bar > * {
-    font-size: 1rem;
+    font-size: 1.4rem;
     padding: 1.35rem;
     font-weight:500; } }
  
