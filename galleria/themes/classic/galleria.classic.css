@@ -73,8 +73,8 @@ cursor:pointer
 }
 .galleria-info {
     width: 35%;
-	height: 450px;
-   padding: 5px 0 0 0;
+	min-height: 450px;
+/*   padding: 5px 0 0 0;*/
     z-index: 2;
 }
 .galleria-info-text {
@@ -86,7 +86,7 @@ cursor:pointer
     font-family:"Montserrat", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-size:1.3rem;
     line-height:1;
-    margin: 5px auto;
+  /*  margin: 5px auto;*/
     color: #99cc00;
     margin-bottom: 7px;
 	letter-spacing:-0.025em;
@@ -105,7 +105,9 @@ cursor:pointer
     color: #7e7e7e;
 }
 .galleria-info-description small{
-    color: #4F66A3;
+    color: #623189;
+    font-size:80%;
+    letter-spacing:-.015em;
 }
 .galleria-info-close {
     width: 9px;
