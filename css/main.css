@@ -1,3 +1,5 @@
+/* This layout relies heavily on Zurb Foundation. I'll be migrating it to Flexbox very, VERY soon. */
+
 body {
 background:#000;
 color:#9E9E9E;
@@ -138,7 +140,7 @@ line-height:1.4;
 }
 
 section {
-min-height:75vh;
+min-height:65vh;
 max-width:90%;
 margin:0 auto;
 }
@@ -405,7 +407,9 @@ input[type=submit]:hover {
 .text-center {
 text-align:center;
 }
-
+.main {
+  color:#99cc00;
+}
 .services h2 {
 letter-spacing:-.1rem;
 opacity:.3;
