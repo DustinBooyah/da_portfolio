@@ -2,7 +2,7 @@
 
 body {
 background:#000;
-color:#9E9E9E;
+color:#f4f4f4;
 font-family:"Montserrat","Helvetica Neue", "Helvetica", sans-serif;
 letter-spacing:-.025em;
 font-weight:300;
@@ -137,6 +137,7 @@ li {
 list-style-type:none;
 font-weight:400;
 line-height:1.4;
+color:#9E9E9E;
 }
 
 section {
@@ -313,7 +314,7 @@ input[type=submit]:hover {
   border:none;
 }
 
-    button::-moz-focus-inner {
+  button::-moz-focus-inner {
   border: 0;
   padding: 0; }
 

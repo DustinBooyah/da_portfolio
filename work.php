@@ -8,11 +8,11 @@
     <meta content="website">
     <meta content="http://www.dustinaguilar.com/thumbnail.png">
     <meta content="201403583">
-    <link href="css/foundation.css" rel="stylesheet" />
-    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/foundation.scss" rel="stylesheet" />
+    <link href="css/main.scss" rel="stylesheet" />
     <link href="font/foundation-icons.css" rel="stylesheet"  type='text/css' />
     <link rel="stylesheet" href="http://brick.a.ssl.fastly.net/Montserrat:400,700">
-    <!--[if lt IE 9 & !IEMobile]>  <link href="css/main.css" rel="stylesheet" type="text/css">  <![endif]-->
+    <!--[if lt IE 9 & !IEMobile]>  <link href="css/main.scss" rel="stylesheet" type="text/css">  <![endif]-->
     <script src="js/vendor/modernizr.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
     <script src="galleria/galleria-1.2.7.js"></script>
