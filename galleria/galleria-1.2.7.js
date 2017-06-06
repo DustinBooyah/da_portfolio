@@ -1,6 +1,6 @@
 /**
  * Galleria v 1.2.7 2012-04-04
- * http://galleria.io
+ * https://galleria.io
  *
  * Licensed under the MIT license
  * https://raw.github.com/aino/galleria/master/LICENSE
@@ -116,11 +116,11 @@ var undef,
         youtube: {
             reg: /https?:\/\/(?:[a-zA_Z]{2,3}.)?(?:youtube\.com\/watch\?)((?:[\w\d\-\_\=]+&amp;(?:amp;)?)*v(?:&lt;[A-Z]+&gt;)?=([0-9a-zA-Z\-\_]+))/i,
             embed: function(id) {
-                return 'http://www.youtube.com/embed/'+id;
+                return 'https://www.youtube.com/embed/'+id;
             },
             getThumb: function( id, success, fail ) {
                 fail = fail || F;
-                $.getJSON('http://gdata.youtube.com/feeds/api/videos/' + id + '?v=2&alt=json-in-script&callback=?', function(data) {
+                $.getJSON('https://gdata.youtube.com/feeds/api/videos/' + id + '?v=2&alt=json-in-script&callback=?', function(data) {
                     try {
                         success( data.entry.media$group.media$thumbnail[0].url );
                     } catch(e) {
@@ -132,11 +132,11 @@ var undef,
         vimeo: {
             reg: /https?:\/\/(?:www\.)?(vimeo\.com)\/(?:hd#)?([0-9]+)/i,
             embed: function(id) {
-                return 'http://player.vimeo.com/video/'+id;
+                return 'https://player.vimeo.com/video/'+id;
             },
             getThumb: function( id, success, fail ) {
                 fail = fail || F;
-                $.getJSON('http://vimeo.com/api/v2/video/' + id + '.json?callback=?', function(data) {
+                $.getJSON('https://vimeo.com/api/v2/video/' + id + '.json?callback=?', function(data) {
                     try {
                         success( data[0].thumbnail_medium );
                     } catch(e) {
@@ -148,7 +148,7 @@ var undef,
         dailymotion: {
             reg: /https?:\/\/(?:www\.)?(dailymotion\.com)\/video\/([^_]+)/,
             embed: function(id) {
-                return 'http://www.dailymotion.com/embed/video/'+id;
+                return 'https://www.dailymotion.com/embed/video/'+id;
             },
             getThumb: function( id, success, fail ) {
                 fail = fail || F;
@@ -1055,7 +1055,7 @@ var undef,
 
     @example var gallery = new Galleria();
 
-    @author http://aino.se
+    @author https://aino.se
 
     @requires jQuery
 
@@ -5316,7 +5316,7 @@ Galleria.Picture.prototype = {
                     };
 
                     // Delay the callback to "fix" the Adblock Bug
-                    // http://code.google.com/p/adblockforchrome/issues/detail?id=3701
+                    // https://code.google.com/p/adblockforchrome/issues/detail?id=3701
                     if ( ( !this.width || !this.height ) ) {
                         window.setTimeout( (function( img ) {
                             return function() {

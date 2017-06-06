@@ -6,15 +6,15 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="The Portfolio Website of Dustin Aguilar, a web developer in Gainesville FL" name="description">
     <meta content="website">
-    <meta content="http://www.dustinaguilar.com/thumbnail.png">
+    <meta content="thumbnail.png">
     <meta content="201403583">
     <link href="css/foundation.scss" rel="stylesheet" />
     <link href="css/main.scss" rel="stylesheet" />
     <link href="font/foundation-icons.css" rel="stylesheet"  type='text/css' />
-    <link rel="stylesheet" href="http://brick.a.ssl.fastly.net/Montserrat:400,700">
+    <link rel="stylesheet" href="https://brick.a.ssl.fastly.net/Montserrat:400,700">
     <!--[if lt IE 9 & !IEMobile]>  <link href="css/main.scss" rel="stylesheet" type="text/css">  <![endif]-->
     <script src="js/vendor/modernizr.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
     <script src="galleria/galleria-1.2.7.js"></script>
     <script src="galleria/themes/classic/galleria.classic.js"></script>
 </head>
@@ -138,7 +138,7 @@
     </footer>
 
  <script type="text/javascript">
-var _gaq = _gaq || [];    _gaq.push(['_setAccount', 'UA-5935415-5']);    _gaq.push(['_trackPageview']);    (function() {      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);    })();
+var _gaq = _gaq || [];    _gaq.push(['_setAccount', 'UA-5935415-5']);    _gaq.push(['_trackPageview']);    (function() {      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);    })();
  </script>
 
 </body>
