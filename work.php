@@ -8,11 +8,11 @@
     <meta content="website">
     <meta content="thumbnail.png">
     <meta content="201403583">
-    <link href="css/foundation.scss" rel="stylesheet" />
-    <link href="css/main.scss" rel="stylesheet" />
-    <link href="font/foundation-icons.css" rel="stylesheet"  type='text/css' />
+    <link rel="stylesheet" href="css/foundation.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="font/foundation-icons.css" type="text/css" />
     <link rel="stylesheet" href="https://brick.a.ssl.fastly.net/Montserrat:400,700">
-    <!--[if lt IE 9 & !IEMobile]>  <link href="css/main.scss" rel="stylesheet" type="text/css">  <![endif]-->
+    <!--[if lt IE 9 & !IEMobile]>  <link href="css/main.css" rel="stylesheet" type="text/css">  <![endif]-->
     <script src="js/vendor/modernizr.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
     <script src="galleria/galleria-1.2.7.js"></script>
@@ -132,7 +132,7 @@
           <img src="img/logo_footer.png">
         </div>
         <div class="large-12 columns">
-          <small>Copyright 1999-2017 | Dustin Aguilar</small>
+          <small>Copyright 1999-2015 | Dustin Aguilar</small>
         </div>
       </div>
     </footer>
