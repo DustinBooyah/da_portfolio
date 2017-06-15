@@ -1,190 +1,97 @@
 <!DOCTYPE html>
-
 <html class="no-js" lang="en">
-
-<head>
-
-  <title>Contact | Dustin Aguilar | Web Developement</title>
-
-    <meta charset="utf-8">
-
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-
-    <meta content="The Portfolio Website of Dustin Aguilar, a web developer in Gainesville FL" name="description">
-
-    <meta content="website">
-
-    <meta content="thumbnail.png">
-
-    <meta content="201403583">
-
+	<head>
+		<title>Contact | Dustin Aguilar | Web Developement</title>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1.0" name="viewport">
+		<meta content="The Portfolio Website of Dustin Aguilar, a web developer in Gainesville FL" name="description">
+		<meta content="website">
+		<meta content="thumbnail.png">
+		<meta content="201403583">
     <link rel="stylesheet" href="css/foundation.css"/>
     <link rel="stylesheet" href="css/main.css"/>
     <link rel="stylesheet" href="font/foundation-icons.css" type="text/css" />
     <link rel="stylesheet" href="https://brick.a.ssl.fastly.net/Montserrat:400,700">
     <!--[if lt IE 9 & !IEMobile]>  <link href="css/main.css" rel="stylesheet" type="text/css">  <![endif]-->
+		<script src="js/vendor/modernizr.js"></script>
+	</head>
+<body class="Site" ontouchstart="" onmouseover="">
 
-    <script src="js/vendor/modernizr.js"></script>
-
-</head>
-
-
-
-<body ontouchstart="" onmouseover="">
-
-
-
-  <header>
-
+  <header class="Site-header">
     <nav>
-
-     
-
         <div class="large-10 columns small-centered hide-for-small logo_m">
-
           <div class="icon-bar five-up menu">
-
             <a class="item" href="index.html"><!-- <i class="fi-home"></i>  -->Home</a>
-
             <a class="item" href="services.html"><!-- <i class="fi-info"></i> -->Services</a>
-
             <a class="item" href="index.html"></a>
-
             <a class="item" href="work.html"><!-- <i class="fi-photo"></i> -->Work</a>
-
             <a class="item" href="contact.html"><!-- <i class="fi-mail"></i> -->Contact</a> 
-
           </div>
-
         </div>
-
-
 
          <div class="large-12 columns small-centered show-for-small small-nav">
-
           <div class="icon-bar four-up">
-
             <a class="item" href="index.html"><i class="fi-home"></i> </a>
-
             <a class="item" href="services.html"><i class="fi-info"></i></a>
-
             <a class="item" href="work.html"><i class="fi-photo"></i></a>
-
             <a class="item" href="contact.html"><i class="fi-mail"></i></a> 
-
           </div>
-
         </div>
-
-   
-
-    </nav>
-
+    </nav> 
   </header>
 
+<main class="Site-content">
 
-
-	<section>
-
-	  <div class="row small-only-text-center">
-
-     
-
+  <section class="Aligner">
+    <div class="row">
       <h1 class="head_inner">Get In Touch</h1>
-
-
-
       <div class="large-6 columns">
-
-     	  <h5>Send me an email or visit me on Behance, Github or LinkedIn. </h5>
-
-     	
-
-  			<form action="free_process.php" id="contactformfree" method="post" name="contactformfree" onsubmit="return validate.check(this)" autocomplete="on">
-
-    			<ul>
-
-
-
-    			  <li class="large-7 columns">
-
-            <label for="Full_Name">Name<input id="Full_Name" maxlength="80" name="Full_Name" type="text">
-
-            </label>
-
+        <h5>Send me an email or visit me on Behance, Github or LinkedIn.</h5>
+        <form action="free_process.php" autocomplete="on" id="contactformfree" method="post" name="contactformfree" onsubmit="return validate.check(this)">
+          <ul>
+            <li class="large-7 columns">
+              <label for="Full_Name">Name<input id="Full_Name" maxlength="80" name="Full_Name" type="text"></label>
             </li>
-
-
-
-    				<li class="large-7 columns">
-
-            <label for="Email_Address">Email<input id="Email_Address" maxlength="100" name="Email_Address" type="email">
-
-            </label>
-
+            <li class="large-7 columns">
+              <label for="Email_Address">Email<input id="Email_Address" maxlength="100" name="Email_Address" type="email"></label>
             </li>
-
-
-
-    				<li class="large-12 columns">
-
-            <label for="Your_Message">Message<textarea id="Your_Message" name="Your_Message" cols="50" rows="6"></textarea>
-
-            </label>
-
-            </li>
-
             <li class="large-12 columns">
-
-    				<input class="bounceIn btn animated" type="submit" value="Submit">
-
+              <label for="Your_Message">Message 
+              <textarea cols="50" id="Your_Message" name="Your_Message" rows="6"></textarea></label>
             </li>
-
-  				</ul>
-
-  			</form>
-
-  		
-
-  		</div>
+            <li class="large-12 columns">
+              <input class="btn" type="submit" value="Submit">
+            </li>
+          </ul>
+        </form>
+      </div>
       <div class="large-6 columns">
-
-        <img src="img/main.png" alt="Services" class="visible-for-large-up" >
-     
+        <img alt="Services" class="visible-for-large-up" src="img/main.png">
       </div>
-      </div>
-		</section>
-
-		
-
-    <footer>
-      <div class="row">
-      <div class="large-6 columns large-centered">
-          <div class="icon-bar three-up text-center">
-            <a class="item" href="https://www.behance.net/dustinaguilar" target="blank"><i class="fi-social-behance icons_contact behance"></i>Behance</a>
-            <a class="item" href="https://www.github.com/dustinbooyah" target="blank"><i class="fi-social-github icons_contact github"></i>Github</a>
-            <a class="item" href="https://www.linkedin.com/pub/dustin-aguilar/33/703/50b" target="blank"><i class="fi-social-linkedin icons_contact linkedin"></i> LinkedIn</a>
-          </div>
-      </div>
-      </div>
-      <div class="row">
-       <!--  <div class="large-12 columns">
-          <img src="img/logo_footer.png">
-        </div> -->
-        <div class="large-12 columns">
-          <small>Copyright 1999-2015 | Dustin Aguilar</small>
+    </div>
+  </section>
+   <footer class="Site-footer">
+  
+    <div class="large-6 columns large-centered">
+        <div class="icon-bar three-up">
+          <a class="item" href="https://www.behance.net/dustinaguilar" target="blank"><i class="fi-social-behance icons_contact behance"></i>Behance</a>
+          <a class="item" href="https://www.github.com/dustinbooyah" target="blank"><i class="fi-social-github icons_contact github"></i>Github</a>
+          <a class="item" href="https://www.linkedin.com/pub/dustin-aguilar/33/703/50b" target="blank"><i class="fi-social-linkedin icons_contact linkedin"></i> LinkedIn</a>
         </div>
-      </div>
-    </footer>
+    </div>
 
+      <!--  <div class="large-12 columns">
+        <img src="img/logo_footer.png">
+      </div> -->
 
- <script type="text/javascript">
+    <small>Copyright 1999-2017 | Dustin Aguilar</small>
 
-var _gaq = _gaq || [];    _gaq.push(['_setAccount', 'UA-5935415-5']);    _gaq.push(['_trackPageview']);    (function() {      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);    })();
+  </footer>
+</main>
+<script type="text/javascript">
 
- </script>
+        var _gaq = _gaq || [];    _gaq.push(['_setAccount', 'UA-5935415-5']);    _gaq.push(['_trackPageview']);    (function() {      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);    })();
 
+</script>
 </body>
-
 </html>
-

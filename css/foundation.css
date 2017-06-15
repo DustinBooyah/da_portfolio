@@ -1,5 +1,4 @@
-
-html, body {
+/*html, body {
   height: 100%;
   box-sizing: border-box; }
 
@@ -8,13 +7,13 @@ html, body {
 *:after {
     -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
-  box-sizing: inherit; }
+  box-sizing: inherit; }*/
 
 body {
   padding: 0;
   margin: 0;
 
-  font-size: $base-font-size;
+  /*font-size: $base-font-size;
   line-height: $base-line-height;
 
   @media #{$mq-medium} {
@@ -32,9 +31,8 @@ body {
 
   @media #{$mq-xxlarge} {
     font-size: $base-font-size*1.6;
-  }
+  }*/
 }
-
 img {
   max-width: 100%;
   height: auto;

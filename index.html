@@ -16,9 +16,9 @@
     <script src="js/vendor/modernizr.js"></script>
 </head>
 
-<body ontouchstart="" onmouseover="">
+<body class="Site" ontouchstart="" onmouseover="">
 
-  <header>
+  <header class="Site-header">
     <nav>
 
         <div class="large-10 columns small-centered hide-for-small">
@@ -41,43 +41,45 @@
         </div>
 
     </nav>
-
   </header>
 
-  	<section>
-      <div class="row">
+  <main class="Site-content">
+
+    <section class="Aligner">
+      <div class="Aligner-item">
         <!-- <div class="large-12 columns centered show-for-large ">
-         <img alt="Welcome" src="img/main.png">
-         </div> -->
-         <div class="large-12 columns text-center">
+        <img alt="Welcome" src="img/main.png">
+        </div> -->
+        <div class="large-12 columns text-center">
           <h1>Hi.</h1>
           <h2>I'm Dustin.</h2>
-          <p class="main">I'm a Web Designer & Web Developer in Gainesville, FL.</p>
-          <a href="work.html" class="button bounceIn animated cta effect">Have a look.
+          <p class="text-green">I'm a Web Designer & Web Developer in Gainesville, FL.</p>
+          <!--<a href="work.html" class="button bounceIn animated cta effect">Have a look.
+          </a>-->
+           <a href="work.html" class="button cta">Have a look.
           </a>
         </div>
       </div>
-  	</section>
+    </section>
 
-     <footer>
-      <div class="row">
-      <div class="large-6 columns large-centered">
-          <div class="icon-bar three-up text-center">
-            <a class="item" href="https://www.behance.net/dustinaguilar" target="blank"><i class="fi-social-behance icons_contact behance"></i>Behance</a>
-            <a class="item" href="https://www.github.com/dustinbooyah" target="blank"><i class="fi-social-github icons_contact github"></i>Github</a>
-            <a class="item" href="https://www.linkedin.com/pub/dustin-aguilar/33/703/50b" target="blank"><i class="fi-social-linkedin icons_contact linkedin"></i> LinkedIn</a>
-          </div>
-      </div>
-      </div>
-      <div class="row">
-       <!--  <div class="large-12 columns">
-          <img src="img/logo_footer.png">
-        </div> -->
-        <div class="large-12 columns">
-          <small>Copyright 1999-2017 | Dustin Aguilar</small>
+     <footer class="Site-footer">
+  
+    <div class="large-6 columns large-centered">
+        <div class="icon-bar three-up">
+          <a class="item" href="https://www.behance.net/dustinaguilar" target="blank"><i class="fi-social-behance icons_contact behance"></i>Behance</a>
+          <a class="item" href="https://www.github.com/dustinbooyah" target="blank"><i class="fi-social-github icons_contact github"></i>Github</a>
+          <a class="item" href="https://www.linkedin.com/pub/dustin-aguilar/33/703/50b" target="blank"><i class="fi-social-linkedin icons_contact linkedin"></i> LinkedIn</a>
         </div>
-      </div>
-    </footer>
+    </div>
+
+      <!--  <div class="large-12 columns">
+        <img src="img/logo_footer.png">
+      </div> -->
+
+    <small>Copyright 1999-2017 | Dustin Aguilar</small>
+
+  </footer>
+  </main>
   <script type="text/javascript">
  var _gaq = _gaq || [];    _gaq.push(['_setAccount', 'UA-5935415-5']);    _gaq.push(['_trackPageview']);    (function() {      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);    })();
   </script>
