@@ -79,32 +79,15 @@
             <a href="img/images_gallery/b-17.png" id="fullscreen">
             <img src="img/images_gallery/17.png" title="Cerwin Vega Ad<br><small>Photoshop CS5, Printed</small>" alt="I created and printed this small (unofficial) ad for the speaker company Cerwin-Vega. The project took about 30 minutes from start to finish, which at that time signaled a milestone in trusting my own instincts.
             "></a>
-            <!-- <a href="img/images_gallery/b-13.png" id="fullscreen">
-            <img src="img/images_gallery/13.png" title="Windows 7 Customization" alt="Notepad++, Rainmeter, 3D Rendering in Photoshop<br/><br/>I use the open-sourced Rainmeter and stylesheets to customize my desktop and create effects such as the clock behind my logo. Several of the icons in the dock are custom as well, as is the entire Windows theme.
-            "></a> -->
-            <!-- <a href="img/images_gallery/b-04.png" id="fullscreen">
-            <img src="img/images_gallery/04.png" title="Chars Project<br><small>Illustrator CS5, Printed</small>" alt="What makes this school project important to me is that I deliberately ignored a 'rule of thumb' about placing text on top of text. The broken rule went through the critique completely unnoticed (in printed form) and the design was regarded as a success. Text on top of text is a very common theme in my projects.
-            "></a> -->
-           <!--  <a href="img/images_gallery/b-07.png" id="fullscreen">
-            <img src="img/images_gallery/07.png" title="Off Camber Mobile App for the Santa Fe College DMT Program" alt="Adobe Photoshop CS5, Uncoded<br/><br/>Off Camber Mobile is a tablet app that supplements the imaginary Off Camber Bicycle enthusiast website.<br/><br/>The photo swipes left/right, the icons can be pulled forward or pushed back and the headlines scroll up/down. This project also utilizes Layer Comps, which enable clients to navigate mockups within a single PDF."
-            ></a> -->
             <a href="img/images_gallery/b-03.png" id="fullscreen">
             <img src="img/images_gallery/03.png" title="Tee 4 Kids Classic<br><small>Fireworks CS5, Photoshop CS5</small>" alt="352 tasked me with picking a charity event and mocking a website design. I chose the 'Golf Tournament'.
             "></a>
             <a href="img/images_gallery/b-18.png" id="fullscreen">
             <img src="img/images_gallery/18.png" title="Web Design Competition for Grooveshark and 352<br><small>Illustrator CS5, Photoshop CS5</small>" alt="Playtime Toys was the theme I chose for the Fall 2011 Web Design Competition held by 352 and Grooveshark. It's purpose is to display potential layout patterns and UI styles as opposed to an actual website. It was a finalist in the competition and I still pull resources from it to this day.
             "></a>
-            <!-- <a href="img/images_gallery/b-10.png" id="fullscreen">
-            <img src="img/images_gallery/10.png" title="Radio Station logo<br><small>Adobe After Effects CS5, Adobe Illustrator CS5</small>" alt="At school, we came up with elements that could possibly be in a radio station's logo: globe, antenna, lightning, speakers and a shield.<br/><br/>I didn't want to use a shield because they make me think of Anti-Virus scams so I used a Flying V and guitar pick to mimic the shape.
-            "></a> -->
             <a href="img/images_gallery/b-14.png" id="fullscreen">
             <img src="img/images_gallery/14.png" title="Lighting Project<br><small>Photoshop CS5</small>" alt="One night I decided to work on lighting accuracy. I replaced the cars in a Mercedes Benz wallpaper photo with Sterling Limousines' H2 stretch and Range Rover.
             "></a>
-           
-           <!--  <a href="img/images_gallery/b-11.png" id="fullscreen">
-            <img src="img/images_gallery/11.png" title="Planet Power Splash" alt="Go to the next slide to view the graphic in motion!<br/>Adobe After Effects CS5, Adobe Photoshop CS5, Vimeo<br/><br/>This school project was part of the semester-long campaign that used the title 'Planet Power'. The goal was to create a computer generated video lead-in / splash.
-            "></a>
-            <a href="https://vimeo.com/30389934"><span class="video">Planet Power Fly-In</span></a> -->
           </div>
 
        <script>
@@ -132,7 +115,7 @@
           <img src="img/logo_footer.png">
         </div>
         <div class="large-12 columns">
-          <small>Copyright 1999-2015 | Dustin Aguilar</small>
+          <small>Copyright 1999-2020 | Dustin Aguilar</small>
         </div>
       </div>
     </footer>
