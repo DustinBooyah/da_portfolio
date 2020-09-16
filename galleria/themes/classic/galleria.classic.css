@@ -6,7 +6,6 @@
 
 .galleria-container {
     position: relative;
-    
 	/* background: #000;*/
 }
 .galleria-container img {
@@ -94,7 +93,6 @@ cursor:pointer
 .galleria-info-title small {
     color:#834b00;
     line-height:0.8;
-
 }
 .galleria-info-description {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -139,12 +137,10 @@ cursor:pointer
     cursor: pointer;
     background-color: #000;
 }
-
 .galleria-info-link,
 .galleria-info-close {
   display: none !important;
 }
-
 .notouch .galleria-info-link:hover {
     opacity: 1;
     filter: alpha(opacity=100);
