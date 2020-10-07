@@ -1,4 +1,6 @@
 # da_portfolio
 This is my responsive portfolio site.
 
-It uses quite a bit of Zurb Foundation for the layout. I'm going to be converting this site to Flexbox as well as using my new logos before it gets cold outside!
+As of 2020, I'm currently working on a few projects that I will be able to showcase. However, I'll also be shifting to showcasing things that aren't neccesarily projects, but more along the lines of achievements. We'll see how it goes!
+
+-Dustin
