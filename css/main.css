@@ -207,6 +207,30 @@ textarea[rows], select[multiple] {
 select::-ms-expand, [data-abide] span.error, [data-abide] small.error {
 	display: none;
 }
+/* Two-column page layout (Services, Contact) */
+.page-grid {
+	display: grid;
+	gap: 2rem;
+	grid-template-columns: 1fr;
+	max-width: 100em;
+	width: 100%;
+	margin: 0 auto;
+}
+.page-grid__title {
+	grid-column: 1 / -1;
+}
+.large-only {
+	display: none;
+}
+@media only screen and (min-width: 64.063em) {
+	.page-grid {
+		grid-template-columns: 1fr 1fr;
+	}
+	.large-only {
+		display: block;
+	}
+}
+
 .icon-bar .nav-icon { display: none; }
 .icon-bar .nav-label { display: inline; }
 @media only screen and (max-width: 40em) {
