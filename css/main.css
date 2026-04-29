@@ -3,8 +3,6 @@ html, body {
 	box-sizing: border-box;
 }
 *, *:before, *:after {
-	-webkit-box-sizing: inherit;
-	-moz-box-sizing: inherit;
 	box-sizing: inherit;
 }
 body {
@@ -131,8 +129,6 @@ input[type=text], input[type=password], input[type=date], input[type=datetime], 
 	padding: .5rem;
 	min-height: 2.3125rem;
 	width: 100%;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	transition: all .15s linear;
 }
@@ -329,18 +325,8 @@ i.github {
 	padding: 2rem;
 	width: 100%;
 }
-.Site-content::after {
-	content: '\00a0';
-	display: block;
-	margin-top: 1.5rem;
-	height: 0px;
-	visibility: hidden;
-}
 .Site-content--full {
 	padding: 0;
-}
-.Site-content--full::after {
-	content: none;
 }
 .Site-header {
 	width: 100%;
