@@ -308,7 +308,24 @@ button::-moz-focus-inner {
 .head_inner {
 	opacity: .7;
 }
-i.icons_contact {
+/* Footer social row */
+.social-list {
+	display: flex;
+	justify-content: center;
+	max-width: 36rem;
+	margin: 0 auto 1rem;
+	padding: 0 1rem;
+}
+.social-list .item {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.4rem;
+	padding: 1.25rem 0.5rem;
+	text-align: center;
+}
+.social-list i {
 	font-size: 5rem;
 }
 i.behance {
