@@ -207,6 +207,16 @@ textarea[rows], select[multiple] {
 select::-ms-expand, [data-abide] span.error, [data-abide] small.error {
 	display: none;
 }
+/* Homepage hero */
+.hero {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 60vh;
+	text-align: center;
+}
+
 /* Two-column page layout (Services, Contact) */
 .page-grid {
 	display: grid;
