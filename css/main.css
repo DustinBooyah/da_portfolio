@@ -110,7 +110,7 @@ li {
 	list-style-type: none;
 }
 footer {
-	color: #484848;
+	color: #888;
 	text-align: center;
 }
 label {
@@ -137,7 +137,12 @@ input[type=text], input[type=password], input[type=date], input[type=datetime], 
 	transition: all .15s linear;
 }
 input[type=text]:focus, input[type=password]:focus, input[type=date]:focus, input[type=datetime]:focus, input[type=datetime-local]:focus, input[type=month]:focus, input[type=week]:focus, input[type=email]:focus, input[type=number]:focus, input[type=search]:focus, input[type=tel]:focus, input[type=time]:focus, input[type=url]:focus, input[type=color]:focus, textarea:focus {
-	outline: none;
+	outline: 2px solid #7DB400;
+	outline-offset: 2px;
+}
+a:focus-visible, button:focus-visible, .button:focus-visible {
+	outline: 2px solid #7DB400;
+	outline-offset: 3px;
 }
 input[type=submit] {
 	-webkit-appearance: none;
@@ -255,7 +260,7 @@ button::-moz-focus-inner {
 	color: rgb(153, 204, 0);
 }
 .head_inner {
-	opacity: .4;
+	opacity: .7;
 }
 i.icons_contact {
 	font-size: 5rem;
@@ -273,8 +278,40 @@ i.github {
 	color: #fff;
 	opacity: 0.5;
 }
-.menu a:hover {
+.menu a:hover,
+.menu a[aria-current="page"],
+.icon-bar a[aria-current="page"] {
 	opacity: 1;
+	color: #7DB400;
+}
+
+/* Accessibility helpers */
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
+}
+.skip-link {
+	position: absolute;
+	top: -48px;
+	left: 0.5rem;
+	background: #7DB400;
+	color: #000;
+	padding: 0.5rem 1rem;
+	font-weight: 700;
+	z-index: 100;
+	transition: top 0.2s ease-in-out;
+}
+.skip-link:focus {
+	top: 0.5rem;
+	color: #000;
+	outline: 2px solid #fff;
 }
 
 /* FLEXBOX 
