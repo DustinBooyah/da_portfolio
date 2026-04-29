@@ -207,8 +207,24 @@ textarea[rows], select[multiple] {
 select::-ms-expand, [data-abide] span.error, [data-abide] small.error {
 	display: none;
 }
-.small-nav {
-	background-color: rgba(0, 0, 0, .75)
+.icon-bar .nav-icon { display: none; }
+.icon-bar .nav-label { display: inline; }
+@media only screen and (max-width: 40em) {
+	.small-nav {
+		background-color: rgba(0, 0, 0, .75);
+	}
+	.icon-bar .nav-icon { display: block; }
+	.icon-bar .nav-label {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		padding: 0;
+		margin: -1px;
+		overflow: hidden;
+		clip: rect(0, 0, 0, 0);
+		white-space: nowrap;
+		border: 0;
+	}
 }
 .button, button {
 	-webkit-appearance: none;
